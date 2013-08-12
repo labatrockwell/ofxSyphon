@@ -90,8 +90,9 @@ void ofxSyphonClient::bind()
         mTex.texData.tex_h = texSize.height;
         mTex.texData.tex_t = texSize.width;
         mTex.texData.tex_u = texSize.height;
-        mTex.texData.glType = GL_RGBA;
-        mTex.texData.pixelType = GL_UNSIGNED_BYTE;
+        mTex.texData.glTypeInternal = GL_RGBA;
+//        mTex.texData.glType = GL_RGBA;
+//        mTex.texData.pixelType = GL_UNSIGNED_BYTE;
         mTex.texData.bFlipTexture = YES;
         mTex.texData.bAllocated = YES;
         
